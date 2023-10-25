@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show Data</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="ip">MY PUBLIC IP ADDRESS IS :-</h1>
+    <div class="showgeolocation">
+      <h3 id="lat"></h3>
+      <h3 id="long">Long :</h3>
+      <h3 id="city">City :</h3>
+      <br/>
+      <h3 id="region">Region :</h3>
+      <h3 id="organisation">Organisation :</h3>
+      <h3 id="hostname">Hostname :</h3>
+    </div>
+    <div class="map">
+        <!-- <iframe id="ifrm" src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="360" height="270" frameborder="0" style="border:0"></iframe> -->
+    </div>
+    <div class="locationinfowithpincode">
+        <h3 id="timeZone">Time Zone :-</h3>
+        <h3 id="dateAndTime">Date And Time</h3>
+        <h3 id="pincode">Pincode</h3>
+        <h3 id="message">Message :- Number of Pincode Found :</h3>
+
+    </div>
+    <div class="showPostOffice">
+        <h4>Post Offices : -</h4>
+        <br>
+        <input type="search" name="" id="input" placeholder="Search By Name or Branch Office">
+        <br>
+        <div id="postOfficeList"></div>
+        <!-- <div class="postoffice">
+            <h5 id="name">Name :Bangodaya</h5>
+            <h5 id="branchtype">Branch Type :-</h5>
+            <h5 id="deliveryStatus">Delivery Status :- Non Delivery</h5>
+            <h5 id="district">District :North 24 Parganas</h5>
+            <h5 id="division">Division :North Presidency</h5>
+        </div> -->
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

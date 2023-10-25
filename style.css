@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+button{
+    box-shadow: none;
+    border-radius: 5px;
+    border: none;
+    background-color:black;
+    color: whitesmoke;
+    margin: 10px 10px 10px 20px;
+    padding: 20px 70px 20px 70px;
+}
+.showgeolocation{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.map{
+    margin: 0px 0px 20px 20px;
+}
+.locationinfowithpincode{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.showPostOffice{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.showPostOffice>input{
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+   border-style: dotted;
+    border-width: 1px;
+   
+
+}
+.postoffice{
+    margin: 20px 10px 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: dotted;
+    padding: 10px 10px 10px 10px;
+
+}
+.postoffice>h5{
+    margin: 5px 5px 5px 5px;
+}
+#input{
+    margin-bottom: 5px;
+}
+#postOfficeList{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    height: auto;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+}
